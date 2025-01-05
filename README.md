@@ -37,23 +37,24 @@ I believe in a **growth mindset**, both personally and professionally. To me, te
 ---
 
 ### 📬 Let's Connect:
-<p align="center"> 
-  <a href="https://www.linkedin.com/in/lasswellt/" target="_blank"> 
-    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white" alt="LinkedIn"> 
-  </a> 
-  <a href="https://github.com/lasswellt/" target="_blank"> 
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"> 
-  </a> 
-  <a href="https://lasswell.me" target="_blank"> 
-    <img src="https://img.shields.io/badge/Personal%20Website-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Personal Website"> 
+<p align="center">
+  <a href="https://www.linkedin.com/in/lasswellt/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
   </a>
-  <a href="https://lasswellt.medium.com" target="_blank"> 
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"> 
+  <a href="https://github.com/lasswellt/">
+    <img src="https://img.shields.io/badge/GitHub-Follow-black?style=flat-square&logo=github" alt="GitHub">
   </a>
-  <a href="https://x.com/TomLasswell" target="_blank"> 
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"> 
+  <a href="https://lasswell.me">
+    <img src="https://img.shields.io/badge/Website-Visit-informational?style=flat-square" alt="Website">
+  </a>
+  <a href="https://lasswellt.medium.com">
+    <img src="https://img.shields.io/badge/Medium-Read-00ab6c?style=flat-square&logo=medium" alt="Medium">
+  </a>
+  <a href="https://x.com/lasswellt">
+    <img src="https://img.shields.io/badge/X-Follow-1DA1F2?style=flat-square&logo=x" alt="X">
   </a>
 </p>
+
 
 ---
 

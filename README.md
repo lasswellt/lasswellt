@@ -2,6 +2,8 @@
 
 Welcome to my digital playground! 🚀 This space is where I explore technology, share ideas, and collaborate on projects that solve real-world problems. Let’s dive into my journey and what you can find here!
 
+![GitHub Join Date](https://img.shields.io/badge/Joined%20on-January%2010%2C%202011-blue?style=for-the-badge)
+
 ---
 
 ## 📖 **About Me**

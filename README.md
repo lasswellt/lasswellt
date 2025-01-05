@@ -22,6 +22,15 @@ Hi there! I’m Tom Lasswell, a seasoned technology executive with a passion for
 
 ---
 
+## 🆕 Latest Updates to Repositories
+
+Here are some of my recent contributions:
+
+- **[Comprehensive Multi‐Project Quasar & Firebase Playbook](https://github.com/lasswellt/playbook-library/wiki/Comprehensive-Multi%E2%80%90Project-Quasar-&-Firebase-Playbook)**  
+  A detailed guide on building and managing a robust, multi-repository Quasar/Vue application stack, hosted on Firebase and secured by Google Cloud services. 
+
+
+
 ## 🛠️ **Skills and Expertise**
 
 Here are some tools and technologies I work with:  

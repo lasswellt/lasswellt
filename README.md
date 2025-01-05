@@ -16,7 +16,7 @@ Hi there! I’m Tom Lasswell, a seasoned technology executive with a passion for
 - Sharing insights on leadership and technology.
 
 🌟 **My Tech Journey Highlights:**  
-- 🚀 Built and scaled IT infrastructure for businesses across industries like eCommerce, healthcare, and manufacturing.  
+- 🚀 Built and scaled IT infrastructure for businesses across industries like eCommerce, broadcast, and manufacturing.  
 - 🧩 Designed innovative solutions integrating modern platforms like Azure, AWS, and Salesforce.  
 - 🎓 Lifelong learner, continuously staying updated on cutting-edge technologies like AI and cloud computing.
 

@@ -21,7 +21,7 @@
 
 IT executive focused on **cloud, infrastructure, security**, and **operational excellence**. I build resilient platforms, scale teams, and make complex systems behave (politely).
 
-Currently building **[cubeSP](https://github.com/lasswellt?tab=repositories&q=cubeSP)**, an ITSM/PSA product for MSPs. I enjoy practical automation, clean architecture, and making infrastructure that just works.
+Currently building **[CubeSP](https://github.com/lasswellt?tab=repositories&q=cubesp)**, an ITSM/PSA product for MSPs. I enjoy practical automation, clean architecture, and making infrastructure that just works.
 
 ```yaml
 current_focus:
@@ -41,7 +41,7 @@ current_focus:
 <tr>
 <td width="50%">
 
-#### 🟦 **cubeSP** 🔒
+#### 🟦 **CubeSP** 🔒
 Multi-tenant ITSM/PSA platform
 *Combining ticketing, automation, and service delivery for MSPs*
 
@@ -135,7 +135,10 @@ Based on recent commits (Last 30 days):
 <div align="center">
 
 ### 🏆 GitHub Trophies
-![Trophies](https://github-profile-trophy.vercel.app/?username=lasswellt&theme=tokyonight&no-frame=true&row=1&column=6)
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=lasswellt&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies"/>
+</p>
 
 </div>
 
@@ -193,8 +196,14 @@ const expertise = {
 
 ### Featured Repositories
 
-[![Govee HA](https://github-readme-stats.vercel.app/api/pin/?username=lasswellt&repo=govee-homeassistant&theme=tokyonight&hide_border=true)](https://github.com/lasswellt/govee-homeassistant)
-[![CC Metrics](https://github-readme-stats.vercel.app/api/pin/?username=lasswellt&repo=cc-metrics&theme=tokyonight&hide_border=true)](https://github.com/lasswellt/cc-metrics)
+<p align="center">
+  <a href="https://github.com/lasswellt/govee-homeassistant">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=lasswellt&repo=govee-homeassistant&theme=tokyonight&hide_border=true" alt="Govee HA"/>
+  </a>
+  <a href="https://github.com/lasswellt/cc-metrics">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=lasswellt&repo=cc-metrics&theme=tokyonight&hide_border=true" alt="CC Metrics"/>
+  </a>
+</p>
 
 </div>
 

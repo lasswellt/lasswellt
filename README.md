@@ -151,7 +151,7 @@ Based on recent commits (Last 30 days):
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=lasswellt&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=lasswellt)](https://git.io/streak-stats)
 
 </div>
 

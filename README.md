@@ -7,7 +7,7 @@
 [![Website](https://img.shields.io/badge/🌐%20lasswell.me-4285F4?style=for-the-badge)](https://lasswell.me)
 
 ![Followers](https://img.shields.io/github/followers/lasswellt?style=for-the-badge&logo=github&label=Followers&color=181717)
-![Repos](https://img.shields.io/badge/Repos-15-2ea44f?style=for-the-badge&logo=github)
+![Repos](https://img.shields.io/badge/Repos-19-2ea44f?style=for-the-badge&logo=github)
 
 ### IT Executive | Cloud Architect | Builder of Things
 
@@ -21,7 +21,7 @@
 
 IT executive focused on **cloud, infrastructure, security**, and **operational excellence**. I build resilient platforms, scale teams, and make complex systems behave (politely).
 
-Currently building **[CubeSP](https://github.com/lasswellt?tab=repositories&q=cubesp)**, an ITSM/PSA product for MSPs. I enjoy practical automation, clean architecture, and making infrastructure that just works.
+Currently building **CubeSP**, a multi-portal ITSM/PSA platform for MSPs. I enjoy practical automation, clean architecture, and making infrastructure that just works.
 
 ```yaml
 current_focus:
@@ -42,20 +42,20 @@ current_focus:
 <td width="50%">
 
 #### 🟦 **CubeSP** 🔒
-Multi-tenant ITSM/PSA platform
-*Combining ticketing, automation, and service delivery for MSPs*
+Multi-portal ITSM/PSA platform for MSPs
+*Admin Console, Agent Portal & Customer Portal in one TypeScript monorepo*
 
-**Stack:** Vue.js, Quasar, Firebase, Node.js
+**Stack:** TypeScript, Vue 3, Firebase Functions (2nd gen), GCP, pnpm workspaces
 **Status:** Active Development | Private Repository
 
 </td>
 <td width="50%">
 
 #### 🎭 **MEMBRIX** 🔒
-Membership & event management system
-*Streamlining organization operations*
+Membership & event operating system
+*Streamlining community-organization operations*
 
-**Stack:** Vue.js, Quasar, Firestore
+**Stack:** Vue 3.5, Vite, Pinia, VueFire, Firebase Functions, Firestore
 **Status:** Active Development | Private Repository
 
 </td>
@@ -65,10 +65,10 @@ Membership & event management system
 
 #### 🏠 **[Govee Home Assistant](https://github.com/lasswellt/govee-homeassistant)** ⭐
 HACS custom component for Govee devices
-*Clean architecture, API v2.0, MQTT support*
+*Clean architecture, API v2.0, native MQTT transport*
 
 **Stack:** Python, Home Assistant
-**Status:** Published | 1 Star
+**Status:** Published | 57 Stars
 
 </td>
 <td>
@@ -78,7 +78,29 @@ OpenTelemetry metrics dashboard
 *Real-time monitoring for Claude Code usage*
 
 **Stack:** JavaScript, OpenTelemetry
-**Status:** Published | 2 Stars
+**Status:** Published | 10 Stars
+
+</td>
+</tr>
+<tr>
+<td>
+
+#### ⚡ **[blitz-cc](https://github.com/lasswellt/blitz-cc)** ⭐
+Custom skills & tools for Claude Code
+*Sprint-driven dev workflow, agents, and quality gates*
+
+**Stack:** Shell, Markdown
+**Status:** Published
+
+</td>
+<td>
+
+#### 🖥️ **[Claude HQ](https://github.com/lasswellt/claudeHQ)**
+Self-hosted workforce management for Claude Code
+*Monitor & control sessions across machines from one dashboard*
+
+**Stack:** Nuxt 3, Vuetify 3, TypeScript
+**Status:** Published
 
 </td>
 </tr>
@@ -93,11 +115,11 @@ OpenTelemetry metrics dashboard
 
 ### 🔨 Currently Coding With
 
-Based on recent commits (Last 30 days):
+Based on recent commits:
+- 📘 **TypeScript** - CubeSP & MEMBRIX multi-portal platforms
+- 🎨 **Vue 3 / Nuxt 3** - SaaS apps, dashboards & internal tooling
 - 🐍 **Python** - Home Assistant integrations & automation
-- 📊 **JavaScript** - Metrics dashboards & monitoring tools
-- 🎨 **Vue.js/Quasar** - SaaS platform development
-- ☁️ **Azure/Firebase** - Cloud infrastructure & deployment
+- 🔥 **Firebase / GCP** - Functions (2nd gen), Firestore & cloud infra
 
 ---
 
@@ -110,9 +132,11 @@ Based on recent commits (Last 30 days):
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ### 💻 Languages & Frameworks
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)
 ![Quasar](https://img.shields.io/badge/Quasar-1976D2?style=for-the-badge&logo=quasar&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
@@ -182,15 +206,15 @@ const expertise = {
 
 ## 🌟 Recent Activity
 
-**📈 2026 Contributions:** 17 commits • **👥 Network:** 37 followers • 145 following • **📦 Repositories:** 15 public
+**📈 2026 Contributions:** 3,000+ • **👥 Network:** 45 followers • 146 following • **📦 Repositories:** 19 public
 
 ### Latest Updates
 
-- 🏠 **[govee-homeassistant](https://github.com/lasswellt/govee-homeassistant)** - Updated Python integration for Govee devices *(Jan 16, 2026)*
-- 📦 **[default](https://github.com/lasswellt/default)** - Contributing to HACS repository standards *(Jan 16, 2026)*
-- 📊 **[cc-metrics](https://github.com/lasswellt/cc-metrics)** - Enhanced OpenTelemetry metrics dashboard *(Jan 15, 2026)*
-- 🏡 **[ha-core](https://github.com/lasswellt/ha-core)** - Home Assistant core contributions *(Dec 23, 2025)*
-- 🔌 **[ha-smartthinq-sensors](https://github.com/lasswellt/ha-smartthinq-sensors)** - LG SmartThinQ integration updates *(Dec 15, 2025)*
+- 🏠 **[govee-homeassistant](https://github.com/lasswellt/govee-homeassistant)** - Native MQTT control transport for power/brightness/color *(Jun 2026)*
+- 🎭 **MEMBRIX** 🔒 - Membership OS — sprint series + full-repo quality sweeps *(Jun 2026)*
+- 🟦 **CubeSP** 🔒 - Multi-portal platform — roadmap complete, 22/22 epics shipped *(Apr 2026)*
+- 🖥️ **[Claude HQ](https://github.com/lasswellt/claudeHQ)** - Self-hosted Claude Code session management dashboard *(Apr 2026)*
+- ⚡ **[blitz-cc](https://github.com/lasswellt/blitz-cc)** - Custom Claude Code skills & sprint workflow *(Jun 2026)*
 
 <div align="center">
 
@@ -202,6 +226,12 @@ const expertise = {
   </a>
   <a href="https://github.com/lasswellt/cc-metrics">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=lasswellt&repo=cc-metrics&theme=tokyonight&hide_border=true" alt="CC Metrics"/>
+  </a>
+  <a href="https://github.com/lasswellt/blitz-cc">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=lasswellt&repo=blitz-cc&theme=tokyonight&hide_border=true" alt="blitz-cc"/>
+  </a>
+  <a href="https://github.com/lasswellt/claudeHQ">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=lasswellt&repo=claudeHQ&theme=tokyonight&hide_border=true" alt="Claude HQ"/>
   </a>
 </p>
 

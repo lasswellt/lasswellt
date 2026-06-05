@@ -68,7 +68,7 @@ HACS custom component for Govee devices
 *Clean architecture, API v2.0, native MQTT transport*
 
 **Stack:** Python, Home Assistant
-**Status:** Published | 57 Stars
+**Status:** Published | [![Stars](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/lasswellt/govee-homeassistant/badges/stars.json)](https://github.com/lasswellt/govee-homeassistant/stargazers)
 
 </td>
 <td>

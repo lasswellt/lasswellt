@@ -158,26 +158,20 @@ Based on recent commits:
 
 <div align="center">
 
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=lasswellt&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub Trophies"/>
-</p>
+![Followers](https://img.shields.io/github/followers/lasswellt?style=for-the-badge&logo=github&label=Followers&color=181717)
+![Member since](https://img.shields.io/badge/Member%20since-2011-blue?style=for-the-badge&logo=github)
+![Profile Views](https://komarev.com/ghpvc/?username=lasswellt&style=for-the-badge&color=blue&label=Profile+Views)
 
 </div>
 
-<div align="center">
+### 📌 Featured Repositories
 
-<img src="https://github-readme-stats.vercel.app/api?username=lasswellt&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lasswellt&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="170"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=lasswellt)](https://git.io/streak-stats)
-
-</div>
+| Repository | Stars | Forks | Language | Last Commit |
+|---|---|---|---|---|
+| 🏠 [govee-homeassistant](https://github.com/lasswellt/govee-homeassistant) | ![](https://img.shields.io/github/stars/lasswellt/govee-homeassistant?style=flat-square&label=) | ![](https://img.shields.io/github/forks/lasswellt/govee-homeassistant?style=flat-square&label=) | ![](https://img.shields.io/github/languages/top/lasswellt/govee-homeassistant?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/lasswellt/govee-homeassistant?style=flat-square&label=) |
+| 📊 [cc-metrics](https://github.com/lasswellt/cc-metrics) | ![](https://img.shields.io/github/stars/lasswellt/cc-metrics?style=flat-square&label=) | ![](https://img.shields.io/github/forks/lasswellt/cc-metrics?style=flat-square&label=) | ![](https://img.shields.io/github/languages/top/lasswellt/cc-metrics?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/lasswellt/cc-metrics?style=flat-square&label=) |
+| ⚡ [blitz-cc](https://github.com/lasswellt/blitz-cc) | ![](https://img.shields.io/github/stars/lasswellt/blitz-cc?style=flat-square&label=) | ![](https://img.shields.io/github/forks/lasswellt/blitz-cc?style=flat-square&label=) | ![](https://img.shields.io/github/languages/top/lasswellt/blitz-cc?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/lasswellt/blitz-cc?style=flat-square&label=) |
+| 🖥️ [claudeHQ](https://github.com/lasswellt/claudeHQ) | ![](https://img.shields.io/github/stars/lasswellt/claudeHQ?style=flat-square&label=) | ![](https://img.shields.io/github/forks/lasswellt/claudeHQ?style=flat-square&label=) | ![](https://img.shields.io/github/languages/top/lasswellt/claudeHQ?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/lasswellt/claudeHQ?style=flat-square&label=) |
 
 <div align="center">
 
@@ -215,27 +209,6 @@ const expertise = {
 - 🟦 **CubeSP** 🔒 - Multi-portal platform — roadmap complete, 22/22 epics shipped *(Apr 2026)*
 - 🖥️ **[Claude HQ](https://github.com/lasswellt/claudeHQ)** - Self-hosted Claude Code session management dashboard *(Apr 2026)*
 - ⚡ **[blitz-cc](https://github.com/lasswellt/blitz-cc)** - Custom Claude Code skills & sprint workflow *(Jun 2026)*
-
-<div align="center">
-
-### Featured Repositories
-
-<p align="center">
-  <a href="https://github.com/lasswellt/govee-homeassistant">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=lasswellt&repo=govee-homeassistant&theme=tokyonight&hide_border=true" alt="Govee HA"/>
-  </a>
-  <a href="https://github.com/lasswellt/cc-metrics">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=lasswellt&repo=cc-metrics&theme=tokyonight&hide_border=true" alt="CC Metrics"/>
-  </a>
-  <a href="https://github.com/lasswellt/blitz-cc">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=lasswellt&repo=blitz-cc&theme=tokyonight&hide_border=true" alt="blitz-cc"/>
-  </a>
-  <a href="https://github.com/lasswellt/claudeHQ">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=lasswellt&repo=claudeHQ&theme=tokyonight&hide_border=true" alt="Claude HQ"/>
-  </a>
-</p>
-
-</div>
 
 ---
 

@@ -1,253 +1,103 @@
-<div align="center">
+# Tom Lasswell
 
-# 👋 Hey there! I'm Tom Lasswell
+**Director of IT** &nbsp;·&nbsp; Atlanta, GA &nbsp;·&nbsp; [lasswell.me](https://lasswell.me)
 
-[![GitHub Join Date](https://img.shields.io/badge/Joined%20on-January%2010%2C%202011-blue?style=for-the-badge)](https://github.com/lasswellt)
-[![Location](https://img.shields.io/badge/📍%20Atlanta,_GA-00ADD8?style=for-the-badge)]()
-[![Website](https://img.shields.io/badge/🌐%20lasswell.me-4285F4?style=for-the-badge)](https://lasswell.me)
+I lead IT infrastructure and service delivery — data center, cloud, security, and the
+operating model that holds them together. Twenty years in, most of the work is
+organizational: deciding what to standardize, what to retire, and who owns the thing
+at 3 a.m.
 
-![Followers](https://img.shields.io/github/followers/lasswellt?style=for-the-badge&logo=github&label=Followers&color=181717)
-![Repos](https://img.shields.io/badge/Repos-19-2ea44f?style=for-the-badge&logo=github)
-
-### IT Executive | Cloud Architect | Builder of Things
-
-*Turning "someday" roadmaps into shipped outcomes*
-
-</div>
+I also never stopped writing code. The Home Assistant integration further down this
+page runs in roughly 5,400 homes. Keeping something in production that strangers
+depend on is the cheapest way I know to stay honest about what I ask engineers to do.
 
 ---
 
-## 🚀 About Me
+## How I think about the work
 
-IT executive focused on **cloud, infrastructure, security**, and **operational excellence**. I build resilient platforms, scale teams, and make complex systems behave (politely).
+**Infrastructure is a product.** Core systems earn the same rigor as software —
+roadmaps, service levels, versioning, a named owner. The moment the network has a
+backlog instead of a ticket queue, the business starts talking about it differently.
 
-Currently building **CubeSP**, a multi-portal ITSM/PSA platform for MSPs. I enjoy practical automation, clean architecture, and making infrastructure that just works.
+**Governance should accelerate decisions, not queue them.** Most change advisory
+boards are a tax on velocity that buys no safety. Guiding principles used as decision
+filters push judgment down to the people holding the context.
 
-```yaml
-current_focus:
-  - Multi-tenant SaaS platform design
-  - Cloud infrastructure modernization
-  - ITSM/ITIL frameworks & tooling
-  - Home automation (because infrastructure hobbies count)
-```
+**The service desk is the product surface.** It is where the entire IT organization is
+actually evaluated. Staffing it like a cost center and then wondering why IT has no
+credibility is a self-inflicted wound.
 
----
-
-## 💼 What I'm Building
-
-### 🎯 Active Projects
-
-<table>
-<tr>
-<td width="50%">
-
-#### 🟦 **CubeSP** 🔒
-Multi-portal ITSM/PSA platform for MSPs
-*Admin Console, Agent Portal & Customer Portal in one TypeScript monorepo*
-
-**Stack:** TypeScript, Vue 3, Firebase Functions (2nd gen), GCP, pnpm workspaces
-**Status:** Active Development | Private Repository
-
-</td>
-<td width="50%">
-
-#### 🎭 **MEMBRIX** 🔒
-Membership & event operating system
-*Streamlining community-organization operations*
-
-**Stack:** Vue 3.5, Vite, Pinia, VueFire, Firebase Functions, Firestore
-**Status:** Active Development | Private Repository
-
-</td>
-</tr>
-<tr>
-<td>
-
-#### 🏠 **[Govee Home Assistant](https://github.com/lasswellt/govee-homeassistant)** ⭐
-HACS custom component for Govee devices
-*Clean architecture, API v2.0, native MQTT transport*
-
-**Stack:** Python, Home Assistant
-**Status:** Published | [![Stars](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/lasswellt/govee-homeassistant/badges/stars.json)](https://github.com/lasswellt/govee-homeassistant/stargazers)
-
-</td>
-<td>
-
-#### 📊 **[CC Metrics](https://github.com/lasswellt/cc-metrics)** ⭐
-OpenTelemetry metrics dashboard
-*Real-time monitoring for Claude Code usage*
-
-**Stack:** JavaScript, OpenTelemetry
-**Status:** Published | 10 Stars
-
-</td>
-</tr>
-<tr>
-<td>
-
-#### ⚡ **[blitz-cc](https://github.com/lasswellt/blitz-cc)** ⭐
-Custom skills & tools for Claude Code
-*Sprint-driven dev workflow, agents, and quality gates*
-
-**Stack:** Shell, Markdown
-**Status:** Published
-
-</td>
-<td>
-
-#### 🖥️ **[Claude HQ](https://github.com/lasswellt/claudeHQ)**
-Self-hosted workforce management for Claude Code
-*Monitor & control sessions across machines from one dashboard*
-
-**Stack:** Nuxt 3, Vuetify 3, TypeScript
-**Status:** Published
-
-</td>
-</tr>
-</table>
-
-### 📚 Knowledge & Frameworks
-
-- **[Quasar & Firebase Playbook](https://github.com/lasswellt/playbook-library)** - Multi-repo application patterns
-- **[Playbook Examples](https://github.com/lasswellt)** - Knowledge, Host, and Administration modules
-- **ITSM Content** - Newsletter-style writing and tooling
-- **[PowerShell Modules](https://github.com/lasswellt/PSLogicMonitor)** - Cmdlets for LogicMonitor APIs
-
-### 🔨 Currently Coding With
-
-Based on recent commits:
-- 📘 **TypeScript** - CubeSP & MEMBRIX multi-portal platforms
-- 🎨 **Vue 3 / Nuxt 3** - SaaS apps, dashboards & internal tooling
-- 🐍 **Python** - Home Assistant integrations & automation
-- 🔥 **Firebase / GCP** - Functions (2nd gen), Firestore & cloud infra
+**Ship it.** Perfect is the enemy of shipped, and a platform nobody uses is a rounding
+error no matter how elegant the architecture.
 
 ---
 
-## 🛠️ Tech Stack
+## Writing
 
-### ☁️ Cloud & Infrastructure
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+A ten-part series on modernizing ITSM for cloud-native, multi-framework organizations:
 
-### 💻 Languages & Frameworks
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)
-![Quasar](https://img.shields.io/badge/Quasar-1976D2?style=for-the-badge&logo=quasar&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+- [Why ITSM Still Matters in a Cloud-Native, Agile, Multi-Framework World](https://lasswell.me/why-itsm-still-matters-in-a-cloud-native-agile-multi-framework-world/)
+- [The Service Value System: Connecting Strategy to Execution](https://lasswell.me/the-service-value-system-how-to-connect-strategy-to-execution-through-value-streams/)
+- [Governance Without Gridlock: Agility and Accountability in Service Delivery](https://lasswell.me/governance-without-gridlock-balancing-agility-and-accountability-in-service-delivery/)
+- [Infrastructure as a Product: Treating Core Systems With the Rigor of Software](https://lasswell.me/infrastructure-as-a-product-treating-core-systems-with-the-same-rigor-as-software/)
+- [Change Enablement in a DevOps World: Replacing Fear With Velocity and Trust](https://lasswell.me/change-enablement-in-a-devops-world-replacing-fear-of-change-with-velocity-and-trust/)
+- [Service Portfolios & Productization: Defining and Managing IT Services](https://lasswell.me/service-portfolios-productization-defining-marketing-and-managing-it-services/)
 
-### 🗄️ Databases & Tools
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Firestore](https://img.shields.io/badge/Firestore-FFA611?style=for-the-badge&logo=firebase&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### 🔧 DevOps & Observability
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
-![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
-![KQL](https://img.shields.io/badge/KQL-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Akamai](https://img.shields.io/badge/Akamai-0096D6?style=for-the-badge&logo=akamai&logoColor=white)
+Earlier series cover technology leadership, tech roadmaps, and the outsourcing versus
+in-housing decision. Full archive at **[lasswell.me](https://lasswell.me)**.
 
 ---
 
-## 📊 GitHub Stats
+## Code
 
-<div align="center">
+Leadership is the day job. This is the part that keeps me fluent.
 
-![Followers](https://img.shields.io/github/followers/lasswellt?style=for-the-badge&logo=github&label=Followers&color=181717)
-![Member since](https://img.shields.io/badge/Member%20since-2011-blue?style=for-the-badge&logo=github)
-![Profile Views](https://komarev.com/ghpvc/?username=lasswellt&style=for-the-badge&color=blue&label=Profile+Views)
+### Govee for Home Assistant
 
-</div>
+[![Active installs](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/lasswellt/govee-homeassistant/badges/installs.json)](https://analytics.home-assistant.io/)
+[![Stars](https://img.shields.io/github/stars/lasswellt/govee-homeassistant?style=flat-square&color=e3b341&label=stars)](https://github.com/lasswellt/govee-homeassistant)
+[![Forks](https://img.shields.io/github/forks/lasswellt/govee-homeassistant?style=flat-square&color=8b949e&label=forks)](https://github.com/lasswellt/govee-homeassistant/network/members)
+[![Release](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/lasswellt/govee-homeassistant/badges/release.json)](https://github.com/lasswellt/govee-homeassistant/releases)
 
-### 📌 Featured Repositories
+A HACS custom component covering Govee lights, plugs, fans, humidifiers, heaters,
+sensors, and leak hubs. Capability-based rather than SKU-based — entities are built
+from what each device advertises, so new models in a known class generally work
+without a release. Real-time push over Govee's AWS IoT MQTT, with automatic local LAN
+control and cloud fallback. Python, MIT, released most weeks, and by a wide margin
+the most-used thing I have shipped.
 
-| Repository | Stars | Forks | Language | Last Commit |
-|---|---|---|---|---|
-| 🏠 [govee-homeassistant](https://github.com/lasswellt/govee-homeassistant) | ![](https://img.shields.io/github/stars/lasswellt/govee-homeassistant?style=flat-square&label=) | ![](https://img.shields.io/github/forks/lasswellt/govee-homeassistant?style=flat-square&label=) | ![](https://img.shields.io/github/languages/top/lasswellt/govee-homeassistant?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/lasswellt/govee-homeassistant?style=flat-square&label=) |
-| 📊 [cc-metrics](https://github.com/lasswellt/cc-metrics) | ![](https://img.shields.io/github/stars/lasswellt/cc-metrics?style=flat-square&label=) | ![](https://img.shields.io/github/forks/lasswellt/cc-metrics?style=flat-square&label=) | ![](https://img.shields.io/github/languages/top/lasswellt/cc-metrics?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/lasswellt/cc-metrics?style=flat-square&label=) |
-| ⚡ [blitz-cc](https://github.com/lasswellt/blitz-cc) | ![](https://img.shields.io/github/stars/lasswellt/blitz-cc?style=flat-square&label=) | ![](https://img.shields.io/github/forks/lasswellt/blitz-cc?style=flat-square&label=) | ![](https://img.shields.io/github/languages/top/lasswellt/blitz-cc?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/lasswellt/blitz-cc?style=flat-square&label=) |
-| 🖥️ [claudeHQ](https://github.com/lasswellt/claudeHQ) | ![](https://img.shields.io/github/stars/lasswellt/claudeHQ?style=flat-square&label=) | ![](https://img.shields.io/github/forks/lasswellt/claudeHQ?style=flat-square&label=) | ![](https://img.shields.io/github/languages/top/lasswellt/claudeHQ?style=flat-square&label=) | ![](https://img.shields.io/github/last-commit/lasswellt/claudeHQ?style=flat-square&label=) |
+**[→ lasswellt/govee-homeassistant](https://github.com/lasswellt/govee-homeassistant)**
 
-<div align="center">
+### Everything else
 
-### 📅 Contribution Graph
+| Project | What it is | Built with |
+|---|---|---|
+| **[blitz-cc](https://github.com/lasswellt/blitz-cc)** | A language-agnostic agentic development loop for Claude Code — sprint workflow, agents, quality gates | Shell, Markdown |
+| **[cc-metrics](https://github.com/lasswellt/cc-metrics)** | Self-hosted OpenTelemetry dashboard for Claude Code token use and cost | JavaScript, OTel |
+| **[claudeHQ](https://github.com/lasswellt/claudeHQ)** | Workforce management for Claude Code: monitor and control sessions across machines from one dashboard | Nuxt 3, Vuetify, TypeScript |
+| **[signalslate](https://github.com/lasswellt/signalslate)** | One morning page — mail, calendar, tasks and chat across every account, rendered to PDF and pushed to a reMarkable | Python, Docker |
+| **[navien-homeassistant](https://github.com/lasswellt/navien-homeassistant)** | HACS integration for Navien NaviLink water heaters | Python |
+| **[remodel-planner](https://github.com/lasswellt/remodel-planner)** | Room-by-room remodel planner: SVG floorplan with snapping, phase-gated tasks, budgets, permits | TypeScript, Firebase |
+| **[omarchy-copilot](https://github.com/lasswellt/omarchy-copilot)** · **[omarchy-antigravity](https://github.com/lasswellt/omarchy-antigravity)** | Status bar widgets for the GitHub Copilot CLI and Google Antigravity | Python, Shell |
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=lasswellt&theme=tokyo-night&hide_border=true&area=true)
-
-</div>
-
----
-
-## 🎯 Areas of Expertise
-
-```typescript
-const expertise = {
-  cloud: ['Azure App Services', 'AWS', 'Networking', 'Identity & Security'],
-  devops: ['Azure DevOps (YAML + Classic)', 'CI/CD Pipelines', 'IaC'],
-  observability: ['Datadog APM/Synthetics', 'Microsoft Sentinel (KQL)', 'Log Analytics'],
-  development: ['Node.js', 'Vue.js/Quasar', 'Python', 'PowerShell'],
-  platforms: ['Firebase/Firestore', 'Akamai NetStorage', 'SQL Databases'],
-  practices: ['ITSM/ITIL', 'Clean Architecture', 'Team Leadership']
-};
-```
+Two platforms are in private development: **CubeSP**, a multi-portal ITSM/PSA platform
+for MSPs, and **MEMBRIX**, a membership and event operating system. Both are
+TypeScript monorepos on Vue 3 and Firebase.
 
 ---
 
-## 🌟 Recent Activity
+## Stack
 
-**📈 2026 Contributions:** 3,000+ • **👥 Network:** 45 followers • 146 following • **📦 Repositories:** 19 public
-
-### Latest Updates
-
-- 🏠 **[govee-homeassistant](https://github.com/lasswellt/govee-homeassistant)** - Native MQTT control transport for power/brightness/color *(Jun 2026)*
-- 🎭 **MEMBRIX** 🔒 - Membership OS — sprint series + full-repo quality sweeps *(Jun 2026)*
-- 🟦 **CubeSP** 🔒 - Multi-portal platform — roadmap complete, 22/22 epics shipped *(Apr 2026)*
-- 🖥️ **[Claude HQ](https://github.com/lasswellt/claudeHQ)** - Self-hosted Claude Code session management dashboard *(Apr 2026)*
-- ⚡ **[blitz-cc](https://github.com/lasswellt/blitz-cc)** - Custom Claude Code skills & sprint workflow *(Jun 2026)*
+Azure and AWS, Kubernetes and Docker, Firebase and Firestore. Python for integrations
+and automation, TypeScript and Vue 3 for products, PowerShell where the fleet lives.
+Datadog and Microsoft Sentinel for observability, Azure DevOps for pipelines, SQL
+throughout — plus a working knowledge of every ITIL practice I have opinions about.
 
 ---
 
-## 💭 Philosophy
+## Connect
 
-> **Infrastructure should be invisible when it works, and obvious when it doesn't.**
-
-I believe in building systems that are:
-- **Resilient** - They recover gracefully
-- **Observable** - You know what's happening
-- **Maintainable** - The next person (or future you) can understand them
-- **Pragmatic** - Perfect is the enemy of shipped
-
-<div align="center">
-
-### 💡 Random Dev Quote
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-</div>
-
----
-
-## 📬 Let's Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/lasswellt/)
-[![Website](https://img.shields.io/badge/Website-Visit-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://lasswell.me)
-[![Medium](https://img.shields.io/badge/Medium-Read-00ab6c?style=for-the-badge&logo=medium&logoColor=white)](https://lasswellt.medium.com)
-[![X](https://img.shields.io/badge/X-Follow-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/lasswellt)
-
-</div>
-
-<div align="center">
-
----
-
-*"Turn complex problems into shipped solutions, one commit at a time."*
-
-![Profile Views](https://komarev.com/ghpvc/?username=lasswellt&color=blue&style=for-the-badge)
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/lasswellt/) &nbsp;·&nbsp;
+[lasswell.me](https://lasswell.me) &nbsp;·&nbsp;
+[Medium](https://lasswellt.medium.com) &nbsp;·&nbsp;
+[X](https://x.com/TomLasswell)

@@ -76,6 +76,7 @@ the most-used thing I have shipped.
 | **[cc-metrics](https://github.com/lasswellt/cc-metrics)** | Self-hosted OpenTelemetry dashboard for Claude Code token use and cost | JavaScript, OTel |
 | **[claudeHQ](https://github.com/lasswellt/claudeHQ)** | Workforce management for Claude Code: monitor and control sessions across machines from one dashboard | Nuxt 3, Vuetify, TypeScript |
 | **[signalslate](https://github.com/lasswellt/signalslate)** | One morning page — mail, calendar, tasks and chat across every account, rendered to PDF and pushed to a reMarkable | Python, Docker |
+| **[flight-search](https://github.com/lasswellt/flight-search)** | Flight search on the Amadeus API — Vue frontend, Express backend, and an MCP server so assistants can query it directly | Vue 3, Express, MCP |
 | **[navien-homeassistant](https://github.com/lasswellt/navien-homeassistant)** | HACS integration for Navien NaviLink water heaters | Python |
 | **[remodel-planner](https://github.com/lasswellt/remodel-planner)** | Room-by-room remodel planner: SVG floorplan with snapping, phase-gated tasks, budgets, permits | TypeScript, Firebase |
 | **[omarchy-copilot](https://github.com/lasswellt/omarchy-copilot)** · **[omarchy-antigravity](https://github.com/lasswellt/omarchy-antigravity)** | Status bar widgets for the GitHub Copilot CLI and Google Antigravity | Python, Shell |
@@ -83,6 +84,15 @@ the most-used thing I have shipped.
 Two platforms are in private development: **CubeSP**, a multi-portal ITSM/PSA platform
 for MSPs, and **MEMBRIX**, a membership and event operating system. Both are
 TypeScript monorepos on Vue 3 and Firebase.
+
+Architecture notes live in
+**[playbook-library](https://github.com/lasswellt/playbook-library/wiki)**, a wiki-only
+repository. Its centerpiece is a multi-project Quasar and Firebase playbook — several
+independently deployed apps sharing one Firebase backend, composed through module
+federation — with three runnable companion repos as its worked example:
+[host](https://github.com/lasswellt/pb-example-host),
+[knowledge](https://github.com/lasswellt/pb-example-knowledge) and
+[administration](https://github.com/lasswellt/pb-example-administration).
 
 ---
 

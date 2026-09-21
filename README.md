@@ -52,7 +52,12 @@ in-housing decision. Full archive at **[lasswell.me](https://lasswell.me)**.
 
 Leadership is the day job. This is the part that keeps me fluent.
 
-### Govee for Home Assistant
+### Home Assistant
+
+Two HACS integrations, both written against cloud APIs that were never documented
+for this purpose. Between them they cover most of what is plugged in at my house.
+
+#### Govee
 
 [![Active installs](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/lasswellt/govee-homeassistant/badges/installs.json)](https://analytics.home-assistant.io/)
 [![Stars](https://img.shields.io/github/stars/lasswellt/govee-homeassistant?style=flat-square&color=e3b341&label=stars)](https://github.com/lasswellt/govee-homeassistant)
@@ -66,7 +71,43 @@ without a release. Real-time push over Govee's AWS IoT MQTT, with automatic loca
 control and cloud fallback. Python, MIT, released most weeks, and by a wide margin
 the most-used thing I have shipped.
 
+Accepted into the **[HACS default registry](https://github.com/hacs/default)** in
+January 2026, so it installs from inside HACS without adding a custom repository.
+
 **[→ lasswellt/govee-homeassistant](https://github.com/lasswellt/govee-homeassistant)**
+
+#### Navien NaviLink
+
+[![Quality scale](https://img.shields.io/badge/quality%20scale-gold-FFD700?style=flat-square)](https://developers.home-assistant.io/docs/core/integration-quality-scale/)
+[![Release](https://img.shields.io/github/v/release/lasswellt/navien-homeassistant?style=flat-square&color=41BDF5&label=release)](https://github.com/lasswellt/navien-homeassistant/releases)
+[![License](https://img.shields.io/github/license/lasswellt/navien-homeassistant?style=flat-square&color=41BDF5)](https://github.com/lasswellt/navien-homeassistant/blob/main/LICENSE)
+
+Tankless water heaters and combi-boilers over the NaviLink cloud. The interesting
+part is the client: REST authentication, AWS SigV4 WebSocket signing and an MQTT
+transport, written from scratch and asyncio-native, with no `boto3` and no
+`AWSIoTPythonSDK` — `paho-mqtt` driven on the event loop with no background network
+thread. Telemetry is capability-gated, so a unit only grows the entities it actually
+has.
+
+**[→ lasswellt/navien-homeassistant](https://github.com/lasswellt/navien-homeassistant)**
+
+### Omarchy
+
+I run [Omarchy](https://omarchy.org) as my daily driver and write bar plugins for it.
+Both of these answer the same question — *how much of my AI quota is left* — for
+tools that do not otherwise say.
+
+Each is a `service` plus a `bar-widget`: a collector emits one JSON usage record in
+the same contract Omarchy's first-party collectors use, a QML service publishes it on
+a timer, and both the built-in Agents panel and the plugin's own panel read that one
+file. One data path, two views, so they cannot disagree.
+
+| Plugin | What it surfaces |
+|---|---|
+| **[omarchy-copilot](https://github.com/lasswellt/omarchy-copilot)** | GitHub Copilot premium-request quota with a reset countdown, AI credits, tokens by day and model, and which repositories the work happened in. Quota is read live from the CLI's JSON-RPC runtime rather than its cache, and costs no premium requests to collect. |
+| **[omarchy-antigravity](https://github.com/lasswellt/omarchy-antigravity)** | Google Antigravity limits across all four quota buckets, merged across the `agy` CLI and the IDE because the quota is account-wide. Ships a smoke suite that fails loudly if Antigravity's JSON envelope changes shape. |
+
+Both MIT, both QML with shell and Python collectors.
 
 ### Everything else
 
@@ -77,9 +118,7 @@ the most-used thing I have shipped.
 | **[claudeHQ](https://github.com/lasswellt/claudeHQ)** | Workforce management for Claude Code: monitor and control sessions across machines from one dashboard | Nuxt 3, Vuetify, TypeScript |
 | **[signalslate](https://github.com/lasswellt/signalslate)** | One morning page — mail, calendar, tasks and chat across every account, rendered to PDF and pushed to a reMarkable | Python, Docker |
 | **[flight-search](https://github.com/lasswellt/flight-search)** | Flight search on the Amadeus API — Vue frontend, Express backend, and an MCP server so assistants can query it directly | Vue 3, Express, MCP |
-| **[navien-homeassistant](https://github.com/lasswellt/navien-homeassistant)** | HACS integration for Navien NaviLink water heaters | Python |
 | **[remodel-planner](https://github.com/lasswellt/remodel-planner)** | Room-by-room remodel planner: SVG floorplan with snapping, phase-gated tasks, budgets, permits | TypeScript, Firebase |
-| **[omarchy-copilot](https://github.com/lasswellt/omarchy-copilot)** · **[omarchy-antigravity](https://github.com/lasswellt/omarchy-antigravity)** | Status bar widgets for the GitHub Copilot CLI and Google Antigravity | Python, Shell |
 
 Two platforms are in private development: **CubeSP**, a multi-portal ITSM/PSA platform
 for MSPs, and **MEMBRIX**, a membership and event operating system. Both are
